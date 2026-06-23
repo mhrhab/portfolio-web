@@ -7,7 +7,7 @@
   >
     <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
       <a href="#hero" class="font-bold text-3xl tracking-tight text-slate-900">
-       PORTOFOLIO
+       HABIB
       </a>
 
       <!-- Desktop Nav -->
