@@ -53,7 +53,7 @@ const animated = ref(false)
 
 const skillCategories = [
   {
-    icon: '🎨', title: 'Frontend',
+    icon: '</>', title: 'Frontend',
     skills: ['Vue.js 3','TypeScript', 'Tailwind CSS', 'Vite',]
   },
   {
@@ -67,12 +67,12 @@ const skillCategories = [
 ]
 
 const proficiencies = [
-  { icon: '💚', name: 'Vue.js / Nuxt.js', level: 90 },
-  { icon: '🎨', name: 'Tailwind CSS', level: 87 },
-  { icon: '🟨', name: 'JavaScript / TypeScript', level: 80 },
-  { icon: '⚛️', name: 'python', level: 75 },
-  { icon: '🔥', name: 'Firebase / Supabase', level: 70 },
-  { icon: '🐳', name: 'Node.js / Express', level: 65 },
+  { name: 'Vue.js / Nuxt.js', level: 90 },
+  { name: 'Tailwind CSS', level: 87 },
+  { name: 'JavaScript/typescript', level: 80 },
+  { name: 'Python', level: 75 },
+  { name: 'Firebase / Supabase', level: 70 },
+  { name: 'MongoDB', level: 65 },
 ]
 
 onMounted(() => {

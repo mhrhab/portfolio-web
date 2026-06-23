@@ -33,7 +33,11 @@
         >
           <!-- Project thumbnail -->
           <div :class="['h-48 flex items-center justify-center relative overflow-hidden', project.bg]">
-            <div class="text-7xl group-hover:scale-110 transition-transform duration-300">{{ project.emoji }}</div>
+            <img
+               :src="project.image"
+               :alt="project.title"
+              class="w-full h-full object-cover"
+            />
             <div class="absolute top-3 right-3">
               <span class="text-xs font-bold bg-white/90 text-slate-600 px-3 py-1 rounded-full">{{ project.type }}</span>
             </div>
@@ -58,45 +62,51 @@
 
 <script setup>
 import { ref, computed } from 'vue'
+import nodeLogo from '@/assets/nodejs.jpg'
+import vueLogo from '@/assets/vuejs.jpg'
+import figmaLogo from '@/assets/figma.jpg'
+import tailwindcssLogo from '@/assets/tailwindcss.jpg'
 
 const activeFilter = ref('Semua')
 const filterTags = ['Semua', 'Vue.js', 'Node.js', 'Tailwind css', 'figma']
 
 const projects = [
-  {
-    title: 'Vue.js',
-    desc: 'kerangka kerja (framework) JavaScript progresif yang bersifat sumber terbuka (open-source) untuk membangun antarmuka pengguna (User Interface) dan aplikasi web yang interaktif.',
-    emoji: '📊',
-    bg: 'bg-gradient-to-br from-indigo-100 to-blue-50',
-    type: 'Vue.js',
-    tags: ['Vue.js'],
-  },
-  {
-    title: 'nodejs',
-    desc: 'lingkungan runtime (perangkat lunak) sumber terbuka dan lintas platform yang memungkinkan Anda menjalankan kode JavaScript di luar peramban web .',
-    emoji: '🛍️',
-    bg: 'bg-gradient-to-br from-pink-100 to-rose-50',
-    type: 'Node.js',
-    tags: ['Node.js'],
-  },
-  {
-    title: 'Figma',
-    desc: 'Aplikasi maplatform desain dan prototyping berbasis cloud yang digunakan untuk membuat antarmuka (UI) website dan aplikasi, desain grafis, hingga papan tulis kolaboratif.',
-    emoji: '✅',
-    bg: 'bg-gradient-to-br from-green-100 to-emerald-50',
-    type: 'Figma',
-    tags: ['figma'],
- 
-  },
-  {
-    title: 'Tailwind css',
-    desc: 'Lanframework CSS berbasis utilitas (utility-first) yang digunakan untuk membangun antarmuka pengguna (User Interface) dengan cepat dan fleksibel.',
-    emoji: '🎨',
-    bg: 'bg-gradient-to-br from-purple-100 to-violet-50',
-    type: 'Tailwind css',
-    tags: ['Tailwind css'],
-  
-  },
+ {
+  title: 'Node.js',
+  image: nodeLogo,
+  desc: 'abcdefghijklmnop',
+  bg: 'bg-gradient-to-br from-pink-100 to-rose-50',
+  type: 'Node.js',
+  tags: ['Node.js'],
+},
+
+ {
+  title: 'vue.js',
+  image: vueLogo,
+  desc: 'abcdefghijklmnop',
+  bg: 'bg-gradient-to-br from-pink-100 to-rose-50',
+  type: 'Vue.js',
+  tags: ['Vue.js'],
+},
+
+ {
+  title: 'Figma',
+  image: figmaLogo,
+  desc: 'abcdefghijklmnop',
+  bg: 'bg-gradient-to-br from-pink-100 to-rose-50',
+  type: 'Figma',
+  tags: ['Figma'],
+},
+
+ {
+  title: 'tailwindcss',
+  image: tailwindcssLogo,
+  desc: 'abcdefghijklmnop',
+  bg: 'bg-gradient-to-br from-pink-100 to-rose-50',
+  type: 'tailwindcss',
+  tags: ['Tailwind css'],
+}
+
 ]
 
 const filteredProjects = computed(() =>

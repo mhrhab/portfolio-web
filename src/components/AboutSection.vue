@@ -68,8 +68,8 @@ const timeline = [
 ]
 
 const cards = [
-  { icon: '🧩', title: 'SDN 108293 PERBAUNGAN', desc: 'Menempuh pendidikan dari tahun 2014 sampai tahun 2020' },
-  { icon: '🎨', title: 'SMP SETIA BUDI ABADI PERBAUNGAN', desc: 'Menempuh pendidikan dari tahun 2020 sampai tahun 2023' },
-  { icon: '🚀', title: 'SMK ISTIQLAL DELITUA', desc: 'Menempuh pendidikan dari tahun 2023 sampai tahun 2025  ' },
+  { icon: '🏫', title: 'SDN 108293 PERBAUNGAN', desc: 'Menempuh pendidikan dari tahun 2014 sampai tahun 2020' },
+  { icon: '🏫', title: 'SMP SETIA BUDI ABADI PERBAUNGAN', desc: 'Menempuh pendidikan dari tahun 2020 sampai tahun 2023' },
+  { icon: '🏫', title: 'SMK ISTIQLAL DELITUA', desc: 'Menempuh pendidikan dari tahun 2023 sampai tahun 2025  ' },
 ]
 </script>

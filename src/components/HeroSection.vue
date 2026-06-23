@@ -37,9 +37,8 @@
         </div>
 
         <p class="text-slate-500 text-lg leading-relaxed mb-10 max-w-md">
-          Saya Adalah Seorang Mahasiswa di Universitas Satya Terra Bhinneka
-          Dengan Jurusan Informatika
-        </p>
+          Saya Adalah Seorang Mahasiswa semester 2 yang sedang belajar di Universitas Satya Terra Bhinneka
+          Dengan Jurusan Informatika.</p>
 
         <div class="flex flex-wrap gap-4">
           <a
@@ -50,19 +49,6 @@
           </a>
         </div>
 
-        <!-- Stats -->
-        <div class="mt-14 flex gap-10">
-          <div v-for="stat in stats" :key="stat.label">
-            <p class="text-3xl font-black text-slate-900">
-              {{ stat.value }}
-            </p>
-            <p
-              class="text-xs text-slate-400 mt-0.5 uppercase tracking-wide"
-            >
-              {{ stat.label }}
-            </p>
-          </div>
-        </div>
       </div>
 
       <!-- Avatar -->
@@ -107,20 +93,7 @@ const phrases = [
   "UI Designer."
 ];
 
-const stats = [
-  {
-    value: "2+",
-    label: "Years Learning",
-  },
-  {
-    value: "10+",
-    label: "Projects",
-  },
-  {
-    value: "100%",
-    label: "Passion",
-  },
-];
+
 
 let phraseIndex = 0;
 let charIndex = 0;
