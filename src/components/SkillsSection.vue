@@ -67,11 +67,11 @@ const skillCategories = [
 ]
 
 const proficiencies = [
-  { name: 'Vue.js / Nuxt.js', level: 90 },
-  { name: 'Tailwind CSS', level: 87 },
-  { name: 'JavaScript/typescript', level: 80 },
+  { name: 'Vue.js / Nuxt.js', level: 70 },
+  { name: 'Tailwind CSS', level: 50 },
+  { name: 'JavaScript/typescript', level: 50 },
   { name: 'Python', level: 75 },
-  { name: 'Firebase / Supabase', level: 70 },
+  { name: 'Firebase / Supabase', level: 50 },
   { name: 'MongoDB', level: 65 },
 ]
 
