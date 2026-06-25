@@ -74,7 +74,7 @@ const projects = [
  {
   title: 'Node.js',
   image: nodeLogo,
-  desc: 'abcdefghijklmnop',
+  desc: 'Node.js adalah lingkungan runtime (wadah eksekusi) open-source dan lintas platform yang memungkinkan pengembang untuk menjalankan kode JavaScript di luar peramban web (browser). Dibangun di atas mesin V8 milik Google Chrome, Node.js sering digunakan untuk mengembangkan sisi peladen (back-end) dari aplikasi web.',
   bg: 'bg-gradient-to-br from-pink-100 to-rose-50',
   type: 'Node.js',
   tags: ['Node.js'],
@@ -83,7 +83,7 @@ const projects = [
  {
   title: 'vue.js',
   image: vueLogo,
-  desc: 'abcdefghijklmnop',
+  desc: 'Vue.js adalah framework (kerangka kerja) JavaScript progresif sumber terbuka Mengenal VueJS: Pengertian, Fitur, dan Kelebihan Vue.js - Wikipedia bahasa Indonesia, ensiklopedia bebas. Diciptakan oleh Evan You pada 2013op',
   bg: 'bg-gradient-to-br from-pink-100 to-rose-50',
   type: 'Vue.js',
   tags: ['Vue.js'],
@@ -92,7 +92,7 @@ const projects = [
  {
   title: 'Figma',
   image: figmaLogo,
-  desc: 'abcdefghijklmnop',
+  desc: 'Figma adalah platform desain dan prototyping berbasis cloud yang digunakan untuk membuat situs web, aplikasi seluler, dan produk digital lainnya. ',
   bg: 'bg-gradient-to-br from-pink-100 to-rose-50',
   type: 'Figma',
   tags: ['Figma'],
@@ -101,7 +101,7 @@ const projects = [
  {
   title: 'tailwindcss',
   image: tailwindcssLogo,
-  desc: 'abcdefghijklmnop',
+  desc: 'Tailwind CSS adalah kerangka kerja (framework) CSS modern yang berorientasi pada utilitas (utility-first).',
   bg: 'bg-gradient-to-br from-pink-100 to-rose-50',
   type: 'tailwindcss',
   tags: ['Tailwind css'],
